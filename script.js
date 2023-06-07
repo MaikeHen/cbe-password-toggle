@@ -1,5 +1,5 @@
-const psw = document.getElementById("password");
 const btn = document.getElementById("toggle-button");
+const psw = document.getElementById("password");
 
 btn.addEventListener("click", function () {
   if (btn.value === "Show Password") {
